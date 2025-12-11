@@ -151,7 +151,7 @@ export const projects = [
     fullDescription: "Forced alignment is a technique for automatically synchronizing text and an audio recording. In this work, the aim was to propose a model to improve automatic forced alignment of speech in poorly endowed languages, in particular for the Nda' Nda' language, spoken in the West Cameroon region, while taking into account the tonal aspect. To achieve this goal, a triphone Hidden Markov Model (HMM) model was developed, trained with Mel-Frequency Cepstral Coefficients (MFCC) and pitch features, to which delta and delta-delta derivatives were added. A phonetic decision tree was used when training the triphone model, particularly during state fusion, with two groups of questions concerning phonemes with the same tones, tones with the same base vowels, and sound categories that describe the articulatory and acoustic characteristics of the phonemes; nasals and fricatives were taken into account. For the experiments, four models were trained: HMM monophone, HMM triphone, HMM triphone + Speaker Adaptive Training (SAT), and a hybrid HMM - Deep Neural Network (DNN) model. The best model was the HMM triphone, with a Word Error Rate (WER) of 8.92% and a median Phone Boundary Error (PBE) of 75.5 millisecond (ms).",
     tags: ["NLP", "Speech Processing", "HMM", "Low-Resource Languages"],
     media: [
-      { type: 'image', src: 'moi presentant 1.JPG' },
+      { type: 'image', src: 'moi presentant1.jpg' },
       { type: 'image', src: 'moi presentant.JPG' },
       { type: 'image', src: 'moi repondant aux question.JPG' },
       { type: 'image', src: 'article header.png' },

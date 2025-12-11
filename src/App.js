@@ -11,6 +11,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import ProjectModal from './components/ProjectModal';
 import Skills from './components/Skills';
+import Workshop from './components/Workshop';
 import Footer from './components/Footer';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Hero name={aboutMe.name} profile={aboutMe.profile} image={aboutMe.image} />
         <About about={aboutMe} />
         <Skills skills={aboutMe.skills} />
+        <Workshop />
         <Projects 
           projects={projects}
           activeFilter={activeFilter}
