@@ -164,12 +164,13 @@ export const projects = [
     ],
     citation: {
       text: "Tchaheu Tchaheu, D., et al. (2025). A Triphone Hidden Markov Model for Forced Alignment of Nda’ Nda’ Speech. In Proceedings of Digital Avenues for Low-Resource Languages of Sub-Saharan Africa (DASSA’2025)."
-    }
+    },
+    url: "https://github.com/mende237/Nda-Nda-Force-Aligner"
   },
   {
     id: "code-competition",
     title: "Ride-Sharing App Backend",
-    category: "Software Development",
+    category: ["Code Competition"],
     date: "Competition",
     thumbnail: media['code-competition-backend-architechture.png'],
     description: "Designed and built a microservices backend (Spring Boot) for a ride-sharing app during a CGWEB competition, securing third place for the team.",
@@ -196,14 +197,15 @@ export const projects = [
     date: "2021 - Present",
     thumbnail: media['AFN to AFD view.png'],
     description: "A desktop app for designing and testing finite automata, featuring a JavaFX GUI and a C-based backend for core algorithm execution.",
-    fullDescription: "This project is a desktop application for designing, manipulating, and testing finite automata. It provides a graphical user interface to visualize automata and apply various standard algorithms.\n\n## Functionalities\n\nThe application allows users to perform the following operations:\n\n- **Automata Creation:** Create and edit Deterministic Finite Automata (AFD) and Non-deterministic Finite Automata (AFN), including those with epsilon-transitions.\n- **Regular Expression to Automaton:** Convert a regular expression into an equivalent Non-deterministic Finite Automaton (AFN) using Thomson's or Glushkov's construction algorithms.\n- **Determinization:** Convert a Non-deterministic Finite Automaton (AFN) into an equivalent Deterministic Finite Automaton (AFD).\n- **Minimization:** Minimize a Deterministic Finite Automaton (AFD) using Hopcroft's or Brzozowski's algorithms.\n- **Standard Operations:** Perform union, intersection, complement, and mirror operations on automata.\n- **Word Recognition:** Test if a given word is recognized by an automaton.\n- **Save/Load:** Save and load automata definitions to and from JSON files.\n\n## Technologies Used\n\nThe project is built with a separated front-end and back-end architecture.\n\n### Back-end\n\n- **Language:** C\n- **Core Logic:** The back-end implements the core algorithms for all automata operations. This includes data structures for representing automata (graphs, states, transitions) and the logic for transformations and analysis.\n- **Communication:** It communicates with the front-end, likely through a custom scheduler and messenger system that uses JSON as the data interchange format.\n\n### Front-end\n\n- **Language:** Java\n- **Framework:** The graphical user interface (GUI) is built using JavaFX.\n- **Build Tool:** The project is managed and built using Apache Maven.\n- **Architecture:** It follows a Model-View-Controller (MVC) pattern to separate the user interface from the application ... [truncated]",
+    fullDescription: "This project is a desktop application for designing, manipulating, and testing finite automata. It provides a graphical user interface to visualize automata and apply various standard algorithms.\n\n## Functionalities\n\nThe application allows users to perform the following operations:\n\n- **Automata Creation:** Create and edit Deterministic Finite Automata (AFD) and Non-deterministic Finite Automata (AFN), including those with epsilon-transitions.\n- **Regular Expression to Automaton:** Convert a regular expression into an equivalent Non-deterministic Finite Automaton (AFN) using Thomson's or Glushkov's construction algorithms.\n- **Determinization:** Convert a Non-deterministic Finite Automaton (AFN) into an equivalent Deterministic Finite Automaton (AFD).\n- **Minimization:** Minimize a Deterministic Finite Automaton (AFD) using Hopcroft's or Brzozowski's algorithms.\n- **Standard Operations:** Perform union, intersection, complement, and mirror operations on automata.\n- **Word Recognition:** Test if a given word is recognized by an automaton.\n- **Save/Load:** Save and load automata definitions to and from JSON files.\n\n## Technologies Used\n\nThe project is built with a separated front-end and back-end architecture.\n\n### Back-end\n\n- **Language:** C\n- **Core Logic:** The back-end implements the core algorithms for all automata operations. This includes data structures for representing automata (graphs, states, transitions) and the logic for transformations and analysis.\n- **Communication:** It communicates with the front-end, likely through a custom scheduler and messenger system that uses JSON as the data interchange format.\n\n### Front-end\n\n- **Language:** Java\n- **Framework:** The graphical user interface (GUI) is built using JavaFX.\n- **Build Tool:** The project is managed and built using Apache Maven.\n- **Architecture:** It follows a Model-View-Controller (MVC) pattern to separate the user interface from the application ...",
     tags: ["Desktop App", "Java", "JavaFX", "C", "Algorithms", "Compilers"],
     media: [
       { type: 'image', src: 'edit automat view.png' },
       { type: 'image', src: 'Thomson algorithm REG to AFN.png' },
       { type: 'image', src: 'AFN to AFD view.png' },
       { type: 'image', src: 'minimisation.png' }
-    ]
+    ],
+    url: "https://github.com/mende237/automaton"
   },
   {
     id: "mario-game",
@@ -212,20 +214,21 @@ export const projects = [
     date: "2021 - Present",
     thumbnail: media['Screenshot_1.png'],
     description: "A classic 2D platformer built with Java and JavaFX, featuring standard mechanics like player movement, enemies, and collectibles.",
-    fullDescription: "This project is a simple Mario-style platformer game built using Java and JavaFX. It captures classic 2D platformer gameplay, allowing players to control Mario, collect coins, and navigate levels with enemies.\n\n**Functionalities:**\n*   **Classic Platformer Mechanics:** The game features standard platformer movement, including walking left and right, and jumping.\n*   **Player Character:** A controllable Mario character.\n*   **Enemies:** The game includes classic enemies like \"Champignons\" (Goombas) and \"Turtles\" (Koopa Troopas).\n*   **Collectibles:** Players can collect animated coins throughout the level.\n*   **Game UI:** A user interface displays the score and a timer.\n*   **Game Flow:** Includes transitions for game over states and level restarts.\n*   **Controls:** The game is controlled via the keyboard.\n*   **Graphics and Sound:** Features custom pixel-art graphics for characters and environments, along with sound effects for key actions.\n\n**Technologies Used:**\n*   **Core Language:** Java (Version 11)\n*   **GUI Framework:** JavaFX 13 is used for rendering the game visuals and handling the user interface.\n*   **Build Tool:** The project is managed by Apache Maven, which handles the build process and dependencies.",
+    fullDescription: "This project is a simple Mario-style platformer game built using Java and JavaFX. It captures classic 2D platformer gameplay, allowing players to control Mario, collect coins, and navigate levels with enemies.\n\n**Functionalities:**\n*   **Classic Platformer Mechanics:** The game features standard platformer movement, including walking left and right, and jumping.\n*   **Player Character:** A controllable Mario character.\n*   **Enemies:** The game includes classic enemies like \"Champignons\" (Goombas) and \"Turtles\" (Koopa Troopas).\n*   **Collectibles:** Players can collect animated coins throughout the level.\n*   **Game UI:** A user interface displays the score and a timer.\n*   **Game Flow:** Includes transitions for game over states and level restarts.\n*   **Controls:** The game is controlled via the keyboard.\n*   **Graphics and Sound:** Features custom pixel-art graphics for characters and environments, along with sound effects for key actions.\n*   **Core Language:** Java (Version 11)\n*   **GUI Framework:** JavaFX 13 is used for rendering the game visuals and handling the user interface.\n*   **Build Tool:** The project is managed by Apache Maven, which handles the build process and dependencies.",
     tags: ["Game Development", "Java", "JavaFX", "Maven"],
     media: [
       { type: 'image', src: 'Screenshot_1.png' },
       { type: 'image', src: 'Screenshot_2.png' },
       { type: 'image', src: 'Screenshot_3.png' }
-    ]
+    ],
+    url: "https://github.com/mende237/simple-mario-game"
   },
   {
     id: "ohdaa-giz",
     title: "OHDAA & GIZ - Public Health AI",
     category: "Data Science",
     date: "2025",
-    thumbnail: media['ma presentation 2.mp4'],
+    thumbnail: media['photo de famille.jpg'],
     description: "Developed predictive models for malaria, cholera, and rabies using multi-sectoral data, and created/presented AI/ML training materials for GIZ project workshops.",
     fullDescription: "Le projet OHDAA de la GIZ vise à renforcer la stratégie « Une seule santé pour tous » au Cameroun en exploitant les données multisectorielles (santé, environnement, climat, infrastructures) afin de :\n\t- anticiper les épidémies\n\t- détecter rapidement les foyers de maladies\n\t- améliorer la prise de décision sanitaire\ngrâce à l’Intelligence Artificielle (IA) et au Machine Learning (ML). Dans le cadre de ce projet il était question d’analyser les données fournies afin de construire des modèles de prédiction sur la base des attentes des sectoriels, préparer des supports de formation et des tutoriels pour le suivi /formation des participants pendant les ateliers.\n\nMon travail dans ce projet consistait: à la rédaction des supports de formation, au développement des modèles prédictifs et à la présentation des résultats lors des ateliers.",
     tags: ["Data Science", "Machine Learning", "AI", "Public Health", "Python"],
@@ -234,7 +237,7 @@ export const projects = [
       { type: 'video', src: 'ma presentation 2.mp4' },
       { type: 'video', src: 'aclamation.mp4' },
       { type: 'image', src: 'moi presentant1.jpg' },
-      { type: 'image', src: 'moi.jpg' },
+      // { type: 'image', src: 'moi.jpg' },
       { type: 'image', src: 'photo de famille 2.jpg' },
       { type: 'image', src: 'photo de famille.jpg' },
       { type: 'image', src: 'resultat_choléra/Anomaly Score Distribution in Cholera Data.jpeg' },
@@ -245,3 +248,50 @@ export const projects = [
     ]
   }
 ];
+
+export const workshop = {
+  title: "Workshop & Presentations",
+  description: "I have had the opportunity to present my work at various workshops and conferences. Here are some of the highlights.",
+  presentations: [
+    {
+      id: 1,
+      title: "Forced Alignment for Nda' Nda' Speech",
+      event: "Digital Avenues for Low-Resource Languages of Sub-Saharan Africa (DASSA’2025)",
+      date: "2025",
+      thumbnail: media['moi presentant1.jpg'],
+      media: [
+        { type: 'image', src: 'moi presentant1.jpg' },
+        { type: 'image', src: 'moi presentant.JPG' },
+        { type: 'image', src: 'moi repondant aux question.JPG' },
+        { type: 'image', src: 'article header.png' },
+        { type: 'image', src: 'model architecture.png' },
+        { type: 'image', src: 'our article paper.png' },
+        { type: 'image', src: 'PBE Results in ms (Mean; median) result.png' },
+        { type: 'image',src: 'The 20 most frequent triphones on 117 result.png' },
+        { type: 'image', src: 'Tone distribution result.png' },
+        { type: 'image', src: 'WER result.png' }
+      ]
+    },
+    {
+      id: 2,
+      title: "Public Health AI Workshop",
+      event: "OHDAA & GIZ Project",
+      date: "2025",
+      thumbnail: media['ma presentation 2.mp4'],
+      media: [
+        { type: 'video', src: 'ma presentation.mp4' },
+        { type: 'video', src: 'ma presentation 2.mp4' },
+        { type: 'video', src: 'aclamation.mp4' },
+        { type: 'image', src: 'moi presentant1.jpg' },
+        { type: 'image', src: 'moi.jpg' },
+        { type: 'image', src: 'photo de famille 2.jpg' },
+        { type: 'image', src: 'photo de famille.jpg' },
+        { type: 'image', src: 'resultat_choléra/Anomaly Score Distribution in Cholera Data.jpeg' },
+        { type: 'image', src: 'resultat_paludisme/Anomaly Score Distribution in Malaria Data.jpeg' },
+        { type: 'image', src: 'resultat_paludisme/Predicted vs Actual Malaria Cases.jpeg' },
+        { type: 'image', src: 'resultat_rage/Distribution of predicted animal rabies cases on the map of Cameroon.jpeg' },
+        { type: 'image', src: 'resultat_rage/Weekly Suspicious Case Predictions Using Poisson GLM.jpeg' }
+      ]
+    }
+  ]
+};

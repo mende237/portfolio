@@ -13,10 +13,10 @@ const Footer = ({ name }) => {
         </Row>
         <Row className="mt-3">
           <Col>
-            <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer" className="text-white me-3">
+            <a href="https://github.com/mende237" target="_blank" rel="noopener noreferrer" className="text-white me-3">
               <FaGithub size={30} />
             </a>
-            <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer" className="text-white me-3">
+            <a href="https://www.linkedin.com/in/dimitri-tchaheu-tchaheu-11a57224a/" target="_blank" rel="noopener noreferrer" className="text-white me-3">
               <FaLinkedin size={30} />
             </a>
             <a href="https://twitter.com/your-twitter" target="_blank" rel="noopener noreferrer" className="text-white">
