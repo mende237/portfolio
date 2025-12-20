@@ -58,8 +58,9 @@ import media_54 from './assets/Thomson algorithm REG to AFN.png';
 import media_55 from './assets/Tone distribution result.png';
 import media_56 from './assets/Weekly Suspicious Case Predictions Using Poisson GLM.jpeg';
 import media_57 from './assets/WER result.png';
-import media_58 from './assets/moi presentant.JPG';
-import media_59 from './assets/moi repondant aux question.JPG';
+import media_58 from './assets/ moi presentant dassa1.JPG';
+import media_59 from './assets/moi presentant dassa.JPG';
+import media_60 from './assets/moi repondant aux question dassa.JPG';
 
 const media = {
   'aclamation.mp4': media_0,
@@ -120,8 +121,9 @@ const media = {
   'Tone distribution result.png': media_55,
   'Weekly Suspicious Case Predictions Using Poisson GLM.jpeg': media_56,
   'WER result.png': media_57,
-  'moi presentant.JPG': media_58,
-  'moi repondant aux question.JPG': media_59,
+  'moi presentant dassa1.JPG': media_58,
+  'moi presentant dassa.JPG': media_59,
+  'moi repondant aux question dassa.JPG': media_60,
 };
 
 export default media;

@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { motion } from 'framer-motion';
 import { FaReact, FaJsSquare, FaJava, FaLeaf, FaPhp, FaChartBar, FaBrain, FaGitAlt, FaSitemap, FaCode } from 'react-icons/fa';
+import { useTranslation } from 'react-i18next';
 
 const iconMap = {
   FaReact,
@@ -17,6 +18,7 @@ const iconMap = {
 };
 
 const Skills = ({ skills }) => {
+  const { t } = useTranslation();
   const sectionVariants = {
     hidden: { opacity: 0, y: 50 },
     visible: {
@@ -50,7 +52,7 @@ const Skills = ({ skills }) => {
       viewport={{ once: true, amount: 0.2 }}
     >
       <Container>
-        <h2 className="text-center mb-5 display-5">Skills</h2>
+        <h2 className="text-center mb-5 display-5">{t('skills.title')}</h2>
         <Row>
           {skills.map((skill, index) => {
             const IconComponent = iconMap[skill.icon];

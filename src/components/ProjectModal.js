@@ -3,8 +3,10 @@ import { Modal, Row, Col, Badge, Button } from 'react-bootstrap';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import ReactMarkdown from 'react-markdown';
+import { useTranslation } from 'react-i18next';
 
 const ProjectModal = ({ project, handleCloseModal, media }) => {
+  const { i18n } = useTranslation();
   if (!project) return null;
 
   const renderMedia = (mediaItem) => {
@@ -27,7 +29,7 @@ const ProjectModal = ({ project, handleCloseModal, media }) => {
       <Modal.Body>
         <Row>
           <Col md={8}>
-            <ReactMarkdown>{project.fullDescription}</ReactMarkdown>
+            <ReactMarkdown>{project.fullDescription[i18n.language]}</ReactMarkdown>
             
             <div className="my-4">
                 {project.tags.map(tag => <Badge pill bg="primary" className="me-2 p-2 px-3" key={tag}>{tag}</Badge>)}

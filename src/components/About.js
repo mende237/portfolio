@@ -2,8 +2,10 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { motion } from 'framer-motion';
 import { FiMail, FiPhone } from 'react-icons/fi';
+import { useTranslation } from 'react-i18next';
 
 const About = ({ about }) => {
+  const { t, i18n } = useTranslation();
   const sectionVariants = {
     hidden: { opacity: 0, y: 50 },
     visible: {
@@ -25,7 +27,7 @@ const About = ({ about }) => {
       viewport={{ once: true, amount: 0.2 }}
     >
       <Container>
-        <h2 className="text-center mb-5 display-5">About Me</h2>
+        <h2 className="text-center mb-5 display-5">{t('aboutMe.title')}</h2>
         <Row className="mb-5">
           <Col>
             <motion.div
@@ -35,7 +37,7 @@ const About = ({ about }) => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <h3 className="mb-3 text-center">Profile</h3>
-              <p className="text-muted text-center lead">{about.profile}</p>
+              <p className="text-muted text-center lead">{about.profile[i18n.language]}</p>
             </motion.div>
           </Col>
         </Row>

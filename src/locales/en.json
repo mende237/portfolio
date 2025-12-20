@@ -1,0 +1,21 @@
+{
+  "aboutMe": {
+    "title": "About Me",
+    "profile": "A passionate and detail-oriented developer with a Master's degree in Data Science and a strong foundation in transportation planning. Currently contributing to web and mobile development at CGWEB, I thrive on solving complex problems and building sustainable, technology-driven solutions."
+  },
+  "projects": {
+    "title": "My Work"
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "workshop": {
+    "title": "Workshop & Presentations"
+  },
+  "navigation": {
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "workshop": "Workshop"
+  }
+}

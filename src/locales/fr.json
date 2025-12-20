@@ -1,0 +1,21 @@
+{
+  "aboutMe": {
+    "title": "À Propos de Moi",
+    "profile": "Développeur passionné et soucieux du détail, titulaire d'un Master en Science des Données et d'une solide formation en planification des transports. Contribuant actuellement au développement web et mobile chez CGWEB, je m'épanouis dans la résolution de problèmes complexes et la création de solutions technologiques durables."
+  },
+  "projects": {
+    "title": "Mes Projets"
+  },
+  "skills": {
+    "title": "Compétences"
+  },
+  "workshop": {
+    "title": "Ateliers & Présentations"
+  },
+  "navigation": {
+    "about": "À Propos",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "workshop": "Ateliers"
+  }
+}

@@ -3,8 +3,10 @@ import { Container, Row, Button, Card } from 'react-bootstrap';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const ProjectCard = ({ project, handleOpenModal }) => {
+  const { i18n } = useTranslation();
   const cardVariants = {
     hidden: { opacity: 0, y: 50 },
     visible: {
@@ -35,7 +37,7 @@ const ProjectCard = ({ project, handleOpenModal }) => {
         </div>
         <Card.Body className="d-flex flex-column p-4">
           <Card.Title className="fw-bold h5">{project.title}</Card.Title>
-          <Card.Text className="text-muted small">{project.description}</Card.Text>
+          <Card.Text className="text-muted small">{project.description[i18n.language]}</Card.Text>
           <div className="mt-auto">
             {project.tags.slice(0, 4).map((tag) => (
               <span key={tag} className="badge rounded-pill bg-primary me-1 mb-1">
@@ -50,6 +52,7 @@ const ProjectCard = ({ project, handleOpenModal }) => {
 };
 
 const Projects = ({ projects, activeFilter, setActiveFilter, handleOpenModal }) => {
+  const { t } = useTranslation();
   const filters = ['All', 'Professional Work', 'Academic Research', 'Data Science', 'Personal Project', 'Code Competition'];
 
   const filteredProjects =
@@ -60,7 +63,7 @@ const Projects = ({ projects, activeFilter, setActiveFilter, handleOpenModal }) 
   return (
     <section id="projects" className="py-5 bg-light">
       <Container>
-        <h2 className="text-center mb-5 display-4 fw-bold">My Work</h2>
+        <h2 className="text-center mb-5 display-4 fw-bold">{t('projects.title')}</h2>
         <div className="text-center mb-5">
           {filters.map((filter) => (
             <Button

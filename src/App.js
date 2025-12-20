@@ -25,7 +25,7 @@ function App() {
     <div className="App d-flex flex-column min-vh-100">
       <NavigationBar name={aboutMe.name} email={aboutMe.email} />
       <main>
-        <Hero name={aboutMe.name} profile={aboutMe.profile} image={aboutMe.image} />
+        <Hero name={aboutMe.name} about={aboutMe} image={aboutMe.image} />
         <About about={aboutMe} />
         <Skills skills={aboutMe.skills} />
         <Workshop />
