@@ -104,6 +104,45 @@ const About = ({ about }) => {
             </motion.div>
           </Col>
         </Row>
+        <Row className="mt-5">
+          <Col md={6}>
+            <motion.div
+              variants={sectionVariants}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.2 }}
+            >
+              <h3 className="mb-3">Research Interest</h3>
+              <p className="text-muted">{about.researchInterest[i18n.language]}</p>
+            </motion.div>
+          </Col>
+          <Col md={6}>
+            <motion.div
+              variants={sectionVariants}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.2 }}
+            >
+              <h3 className="mb-3">Publications</h3>
+              {about.publications.map((pub, index) => (
+                <div key={index} className="mb-3">
+                  <h5 className="fw-bold">{pub.title}</h5>
+                  <p className="mb-1">{pub.authors}</p>
+                  <p className="text-muted fst-italic">
+                    {pub.journal && <span>{pub.journal}, </span>}
+                    {pub.event && <span>{pub.event}, </span>}
+                    {pub.year}
+                  </p>
+                  {pub.url && (
+                    <a href={pub.url} target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-primary">
+                      View Publication
+                    </a>
+                  )}
+                </div>
+              ))}
+            </motion.div>
+          </Col>
+        </Row>
       </Container>
     </motion.section>
   );

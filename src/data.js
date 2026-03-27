@@ -26,51 +26,46 @@ export const aboutMe = {
   ],
   experiences: [
     {
-      role: "Développeur Web",
-      company: "CGWEB (Canada Global Web)",
-      period: "01/01/2024 – en cours",
-      location: "Canada",
+      role: "Software Engineer",
+      company: "CGWEB",
+      period: "Jan 2025 - Dec 2025",
+      location: "Nouveau-Brunswick, CA",
     },
     {
-      role: "Stage professionnel",
-      company: "WVG",
-      period: "20/05/2023 – 01/01/2024",
-      location: "Yaoundé",
+      role: "Intern Consultant - OHDAA Project",
+      company: "GIZ",
+      period: "Aug 2025 - Oct 2025",
+      location: "Yaoundé, CA",
     },
     {
-      role: "Stage académique",
-      company: "BUNEC",
-      period: "15/02/2022 – 30/08/2022",
-      location: "Yaoundé",
+      role: "IT trainer",
+      company: "KYAD Center",
+      period: "Dec 2024 - July 2025",
+      location: "Le Gosier, FR",
     },
     {
-      role: "Stage académique",
-      company: "Team Information System SARL",
-      period: "10/06/2021 – 05/09/2021",
-      location: "Yaoundé",
-    }
+      role: "Web maintenance manager",
+      company: "KYAD Center",
+      period: "Aug 2024 - Present",
+      location: "Le Gosier, FR",
+    },
   ],
   education: [
     {
-      degree: "Master Informatique Fondamental – Option Science des Données",
-      institution: "Université de Yaoundé I",
-      period: "2023 – 2025"
+      degree: "Master's Degree in Data Science",
+      institution: "University of Yaoundé I",
+      period: "Sept 2021 - Nov 2025",
     },
     {
-      degree: "Master en Planification des Transports",
-      institution: "Ecole Nationale Supérieure des Travaux Publics",
-      period: "2021 – 2023"
+      degree: "Master's Degree in Transportation Planning",
+      institution: "NASPW, ULB, University of Padua, Sapienza University of Rome",
+      period: "Feb 2022 - June 2024",
     },
     {
-      degree: "Licence Informatique Fondamental – Option Génie Logiciel",
-      institution: "Université de Yaoundé I",
-      period: "2018 – 2021"
+      degree: "Bachelor's Degree in Fundamental Computer Science",
+      institution: "University of Yaoundé I",
+      period: "Sept 2018 - July 2021",
     },
-    {
-      degree: "Baccalauréat C",
-      institution: "Lycée Bilingue d’Etoug-Ebé",
-      period: "2017 – 2018"
-    }
   ],
   languages: [
     { name: "Français", level: "Fluent" },
@@ -80,6 +75,26 @@ export const aboutMe = {
     "Video Games",
     "Soccer & Running",
     "Tech Documentaries"
+  ],
+  researchInterest: {
+    en: "I am seeking to pursue the PhD entitled \"AI-driven personalized modeling of urban walking dynamics using wearable sensors\". My objective is to leverage my dual background in Data Science and Transportation Planning to develop environment-sensitive walking models that integrate urban morphology and biomechanical dynamics at a fine-grained level. I am particularly interested in using signal processing and machine learning to extract individualized walking signatures from inertial data to enhance sustainable urban mobility and walkability.",
+    fr: "Je souhaite poursuivre un doctorat intitulé « Modélisation personnalisée de la dynamique de marche urbaine basée sur l'IA à l'aide de capteurs portables ». Mon objectif est de tirer parti de ma double formation en science des données et en planification des transports pour développer des modèles de marche sensibles à l'environnement qui intègrent la morphologie urbaine et la dynamique biomécanique à un niveau de granularité fine. Je suis particulièrement intéressé par l'utilisation du traitement du signal et de l'apprentissage automatique pour extraire des signatures de marche individualisées à partir de données inertielles afin d'améliorer la mobilité urbaine durable et la marchabilité."
+  },
+  publications: [
+    {
+      title: "Investigating and Improving Pedestrian Safety in an Urban Environment of a Low- or Middle-Income Country: A Case Study of Yaoundé, Cameroon",
+      authors: "Feudjio, S. L. T., Tchaheu, T. D., Fondzenyuy, S. K., Jackai, I. N., II, Usami, D. S., Persia, L.",
+      journal: "Future Transportation",
+      year: "2024",
+      url: "https://doi.org/10.3390/futuretransp4020026"
+    },
+    {
+      title: "A triphone hidden Markov model for forced alignment of Nda' Nda' speech",
+      authors: "Tchaheu, T. D., Sherelle, K. A., Paulin, M. Y.",
+      event: "DASSA 2025 (Oral presentation)",
+      year: "2025",
+      url: "https://www.umr-tetis.fr/index.php/fr/actualites/workshop-dassa2025"
+    }
   ]
 };
 
@@ -205,8 +220,24 @@ export const projects = [
       fr: "Conception et création d'un backend de microservices (Spring Boot) pour une application de covoiturage lors d'un concours CGWEB, assurant la troisième place à l'équipe."
     },
     fullDescription: {
-      en: "The goal of this competition organized by CGWEB was to develop a carpooling and package delivery mobile application adapted to Canadian specificities. The application had to facilitate the connection between drivers with a vehicle and passengers looking for trips, as well as people wishing to send packages, while ensuring a smooth and secure user experience. We got third place.\n\nMy work throughout this competition was to implement a backend based on a microservice architecture, it included four microservices:\n\t- User management: this service had operations such as account creation, adding a vehicle, updating the profile, changing the password, etc.\n\t- Trip management: This service offered the possibility for a driver to create a trip, cancel a trip, publish a package transport request, etc.\n\t- Reservation management: This service allowed a driver to accept or reject a carpooling or package transport request, For a passenger to cancel their carpooling or package transport request\n\t- Chat: allowed users to exchange messages\n\nAll these microservices were developed using the Spring Boot framework",
-      fr: "Le but de ce concours organisé par CGWEB était de développer une application mobile de covoiturage et de transport de colis adaptée aux spécificités Canadiennes. L'application devait faciliter la mise en relation entre les conducteurs disposant d'un véhicule et les passagers cherchant des trajets, ainsi que les personnes souhaitant envoyer des colis, tout en garantissant une expérience utilisateur fluide et sécurisée. Nous avons obtenu la troisième place.\n\nMon travail tout au long de ce concours était d'implémenter un backend basé sur une architecture micro service, elle comprenait quatre microservices:\n\t- Gestion des utilisateur: ce service disposait des opérations tels que la création de compte, l'ajout d'un véhicule, la mise jour du profile, modification du mot de passe, etc\n\t- Gestion des trajets: Ce service offrait la possibilité pour un conducteur de créer un trajet, annuler un trajet, publier une demande de transport de colis, etc \n\t- Gestion des reservation: Ce service permetait à un conducteur de d'accepter ou de rejeter une demande de covoiturage ou de transport de colis, Pour un passager d'annuler sa demande de covoiturage ou de transport de colis\n\t- Chat: permetait aux utilisateur d'échanger des messages\n\nTous ces microservices ont été développés à l'aide du framework spring boot"
+      en: `The goal of this competition organized by CGWEB was to develop a carpooling and package delivery mobile application adapted to Canadian specificities. The application had to facilitate the connection between drivers with a vehicle and passengers looking for trips, as well as people wishing to send packages, while ensuring a smooth and secure user experience.
+
+My work throughout this competition was to implement a backend based on a microservice architecture, it included four microservices:
+	- User management: this service had operations such as account creation, adding a vehicle, updating the profile, changing the password, etc.
+	- Trip management: This service offered the possibility for a driver to create a trip, cancel a trip, publish a package transport request, etc.
+	- Reservation management: This service allowed a driver to accept or reject a carpooling or package transport request, For a passenger to cancel their carpooling or package transport request
+	- Chat: allowed users to exchange messages
+
+All these microservices were developed using the Spring Boot framework`,
+      fr: `Le but de ce concours organisé par CGWEB était de développer une application mobile de covoiturage et de transport de colis adaptée aux spécificités Canadiennes. L'application devait faciliter la mise en relation entre les conducteurs disposant d'un véhicule et les passagers cherchant des trajets, ainsi que les personnes souhaitant envoyer des colis, tout en garantissant une expérience utilisateur fluide et sécurisée.
+
+Mon travail tout au long de ce concours était d'implémenter un backend basé sur une architecture micro service, elle comprenait quatre microservices:
+	- Gestion des utilisateur: ce service disposait des opérations tels que la création de compte, l'ajout d'un véhicule, la mise jour du profile, modification du mot de passe, etc
+	- Gestion des trajets: Ce service offrait la possibilité pour un conducteur de créer un trajet, annuler un trajet, publier une demande de transport de colis, etc 
+	- Gestion des reservation: Ce service permetait à un conducteur de d'accepter ou de rejeter une demande de covoiturage ou de transport de colis, Pour un passager d'annuler sa demande de covoiturage ou de transport de colis
+	- Chat: permetait aux utilisateur d'échanger des messages
+
+Tous ces microservices ont été développés à l'aide du framework spring boot`
     },
     tags: ["Backend", "Microservices", "Spring Boot", "Java", "Competition"],
     media: [
@@ -284,9 +315,6 @@ export const projects = [
     },
     tags: ["Data Science", "Machine Learning", "AI", "Public Health", "Python"],
     media: [
-      { type: 'video', src: 'ma presentation.mp4' },
-      { type: 'video', src: 'ma presentation 2.mp4' },
-      { type: 'video', src: 'aclamation.mp4' },
       { type: 'image', src: 'moi presentant1.jpg' },
       // { type: 'image', src: 'moi.jpg' },
       { type: 'image', src: 'photo de famille 2.jpg' },
@@ -330,9 +358,6 @@ export const workshop = {
       date: "2025",
       thumbnail: media['ma presentation 2.mp4'],
       media: [
-        { type: 'video', src: 'ma presentation.mp4' },
-        { type: 'video', src: 'ma presentation 2.mp4' },
-        { type: 'video', src: 'aclamation.mp4' },
         { type: 'image', src: 'moi presentant1.jpg' },
         { type: 'image', src: 'moi.jpg' },
         { type: 'image', src: 'photo de famille 2.jpg' },

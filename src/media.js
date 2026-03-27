@@ -1,6 +1,6 @@
 // This file is auto-generated. Do not edit manually.
 
-import media_0 from './assets/aclamation.mp4';
+
 import media_1 from './assets/AFN to AFD view.png';
 import media_2 from './assets/Anomaly Score Distribution in Cholera Data.jpeg';
 import media_3 from './assets/Anomaly Score Distribution in Malaria Data.jpeg';
@@ -32,8 +32,8 @@ import media_28 from './assets/driv-covoiturage-client-rides.png';
 import media_29 from './assets/driv-covoiturage-client-transaction_history.png';
 import media_30 from './assets/edit automat view.png';
 import media_31 from './assets/Engineering intervention at road segment "Rue Elig Effa" to improve its pedestrian safety grade from E to A.png';
-import media_32 from './assets/ma presentation 2.mp4';
-import media_33 from './assets/ma presentation.mp4';
+
+
 import media_34 from './assets/manager-food-home.png';
 import media_35 from './assets/manager-food-login.png';
 import media_36 from './assets/manager-food-menu.png';
@@ -63,7 +63,7 @@ import media_59 from './assets/moi presentant dassa.JPG';
 import media_60 from './assets/moi repondant aux question dassa.JPG';
 
 const media = {
-  'aclamation.mp4': media_0,
+  
   'AFN to AFD view.png': media_1,
   'Anomaly Score Distribution in Cholera Data.jpeg': media_2,
   'Anomaly Score Distribution in Malaria Data.jpeg': media_3,
@@ -95,8 +95,8 @@ const media = {
   'driv-covoiturage-client-transaction_history.png': media_29,
   'edit automat view.png': media_30,
   'Engineering intervention at road segment "Rue Elig Effa" to improve its pedestrian safety grade from E to A.png': media_31,
-  'ma presentation 2.mp4': media_32,
-  'ma presentation.mp4': media_33,
+  
+  
   'manager-food-home.png': media_34,
   'manager-food-login.png': media_35,
   'manager-food-menu.png': media_36,

@@ -19,9 +19,9 @@ const Footer = ({ name }) => {
             <a href="https://www.linkedin.com/in/dimitri-tchaheu-tchaheu-11a57224a/" target="_blank" rel="noopener noreferrer" className="text-white me-3">
               <FaLinkedin size={30} />
             </a>
-            <a href="https://twitter.com/your-twitter" target="_blank" rel="noopener noreferrer" className="text-white">
+            {/* <a href="https://twitter.com/your-twitter" target="_blank" rel="noopener noreferrer" className="text-white">
               <FaTwitter size={30} />
-            </a>
+            </a> */}
           </Col>
         </Row>
       </Container>
