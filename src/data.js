@@ -9,8 +9,8 @@ export const aboutMe = {
   email: "dimitritchaheutchaheu@gmail.com",
   address: "Etoug-Ebé, Yaoundé, Cameroun",
   profile: {
-    en: "A passionate and detail-oriented developer with a Master's degree in Data Science and a strong foundation in transportation planning. Currently contributing to web and mobile development at CGWEB, I thrive on solving complex problems and building sustainable, technology-driven solutions.",
-    fr: "Développeur passionné et soucieux du détail, titulaire d'un Master en Science des Données et d'une solide formation en planification des transports. Contribuant actuellement au développement web et mobile chez CGWEB, je m'épanouis dans la résolution de problèmes complexes et la création de solutions technologiques durables."
+    en: "A passionate and detail-oriented developer with a Master's degree in Data Science and a strong foundation in transportation planning. I thrive on solving complex problems and building sustainable, technology-driven solutions.",
+    fr: "Développeur passionné et soucieux du détail, titulaire d'un Master en Science des Données et d'une solide formation en planification des transports. Je m'épanouis dans la résolution de problèmes complexes et la création de solutions technologiques durables."
   },
   skills: [
     { name: "React", competence: 90, icon: "FaReact" },
@@ -25,12 +25,7 @@ export const aboutMe = {
     { name: "C Language", competence: 80, icon: "FaCode" }
   ],
   experiences: [
-    {
-      role: "Software Engineer",
-      company: "CGWEB",
-      period: "Jan 2025 - Dec 2025",
-      location: "Nouveau-Brunswick, CA",
-    },
+
     {
       role: "Intern Consultant - OHDAA Project",
       company: "GIZ",
@@ -77,8 +72,8 @@ export const aboutMe = {
     "Tech Documentaries"
   ],
   researchInterest: {
-    en: "I am seeking to pursue the PhD entitled \"AI-driven personalized modeling of urban walking dynamics using wearable sensors\". My objective is to leverage my dual background in Data Science and Transportation Planning to develop environment-sensitive walking models that integrate urban morphology and biomechanical dynamics at a fine-grained level. I am particularly interested in using signal processing and machine learning to extract individualized walking signatures from inertial data to enhance sustainable urban mobility and walkability.",
-    fr: "Je souhaite poursuivre un doctorat intitulé « Modélisation personnalisée de la dynamique de marche urbaine basée sur l'IA à l'aide de capteurs portables ». Mon objectif est de tirer parti de ma double formation en science des données et en planification des transports pour développer des modèles de marche sensibles à l'environnement qui intègrent la morphologie urbaine et la dynamique biomécanique à un niveau de granularité fine. Je suis particulièrement intéressé par l'utilisation du traitement du signal et de l'apprentissage automatique pour extraire des signatures de marche individualisées à partir de données inertielles afin d'améliorer la mobilité urbaine durable et la marchabilité."
+    en: "My research interests focus on signal processing and machine learning applications for human-centered systems. These include automatic speech recognition, urban mobility analytics, and analysis of low-resource languages. I aim to develop AI-driven solutions that enhance sustainable transportation, improve accessibility, and extract actionable insights from complex behavioral and environmental data.",
+    fr: "Mes intérêts de recherche se concentrent sur les applications du traitement du signal et de l'apprentissage automatique pour les systèmes centrés sur l'humain. Ceux-ci incluent la reconnaissance automatique de la parole, l'analyse de la mobilité urbaine et l'analyse des langues à faibles ressources. Je vise à développer des solutions basées sur l'IA qui améliorent la mobilité durable, renforcent l'accessibilité et extraient des informations exploitables à partir de données comportementales et environnementales complexes."
   },
   publications: [
     {
@@ -110,8 +105,8 @@ export const projects = [
       fr: "Développement de l'interface utilisateur, intégration des API et mise en place de pipelines CI/CD pour les tableaux de bord client et administrateur d'une plateforme de covoiturage à grande échelle utilisant React et WebSockets."
     },
     fullDescription: {
-      en: "Within the company CGWEB (Canada Global Web) [https://cgweb.ca/] I had to intervene on these two projects.\n\n\nDriv-Admin-React (https://admin.drivcovoiturage.ca) is the administrative platform of “Driv Covoiturage”, a carpooling management solution. It allows administrators to supervise activities, manage trips and users, and monitor operational indicators using user-friendly dashboards and widgets.\n\nMy work in these two projects consisted of: implementing the graphical interfaces and integrating the APIs developed by the backend team, for the most part of the APIs the communication model used is HTTP however for some APIs websockets were used as well as the implementation of the CI/CD pipeline.",
-      fr: "Au sein de l'entreprise CGWEB (Canada Global Web) [https://cgweb.ca/] j'ai eu à intervenir sur ces deux projets.\n\n\nDriv-Admin-React (https://admin.drivcovoiturage.ca) est la plateforme administrative de « Driv Covoiturage », une solution de gestion de covoiturage. Elle permet aux administrateurs de superviser les activités, de gérer les trajets et les utilisateurs, et de surveiller les indicateurs opérationnels à l'aide de tableaux de bord et de widgets conviviaux.\n\nMon travail dans ces deux projets consistait: à implementer les interfaces graphiques et intégrer les API dévoleppé par l'équipe backend, pour la grande partie des API le modèle de communication utilisé est le HTTP ce pendant pour certaines API les websockets ont été utilisées ainsi que la mise place du pipeline CI/CD."
+      en: `Within a company [https://cgweb.ca/] I had to intervene on these two projects.\n\n\nDriv-Admin-React (https://admin.drivcovoiturage.ca) is the administrative platform of "Driv Covoiturage", a carpooling management solution. It allows administrators to supervise activities, manage trips and users, and monitor operational indicators using user-friendly dashboards and widgets.\n\nMy work in these two projects consisted of: implementing the graphical interfaces and integrating the APIs developed by the backend team, for the most part of the APIs the communication model used is HTTP however for some APIs websockets were used as well as the implementation of the CI/CD pipeline.`,
+      fr: `Au sein d'une entreprise [https://cgweb.ca/] j'ai eu à intervenir sur ces deux projets.\n\n\nDriv-Admin-React (https://admin.drivcovoiturage.ca) est la plateforme administrative de « Driv Covoiturage », une solution de gestion de covoiturage. Elle permet aux administrateurs de superviser les activités, de gérer les trajets et les utilisateurs, et de surveiller les indicateurs opérationnels à l'aide de tableaux de bord et de widgets conviviaux.\n\nMon travail dans ces deux projets consistait: à implementer les interfaces graphiques et intégrer les API dévoleppé par l'équipe backend, pour la grande partie des API le modèle de communication utilisé est le HTTP ce pendant pour certaines API les websockets ont été utilisées ainsi que la mise place du pipeline CI/CD.`
     },
     tags: ["React", "JavaScript", "WebSockets", "CI/CD", "Stripe API", "Professional"],
     media: [
@@ -137,8 +132,8 @@ export const projects = [
       fr: "Dirigé le développement frontend d'une application de gestion de restaurant, en implémentant des fonctionnalités pour la navigation dans les menus, la gestion des commandes et les paiements avec Stripe et WebSockets."
     },
     fullDescription: {
-      en: "Within the company CGWEB (Canada Global Web) [https://cgweb.ca/] I had to intervene on this project.\n\nThis project is a modern, feature-rich web application designed as the client-facing interface for a restaurant or food service management system. It allows customers to browse the menu, place orders, and manage their accounts.\n\nMy work in this project consisted of: implementing the graphical interfaces and integrating the APIs developed by the backend team, for the most part of the APIs the communication model used is HTTP however for some APIs websockets were used as well as the implementation of the CI/CD pipeline.",
-      fr: "Au sein de l'entreprise CGWEB (Canada Global Web) [https://cgweb.ca/] j'ai eu à intervenir sur ce projet.\n\nCe projet est une application web moderne et riche en fonctionnalités conçue comme l'interface client d'un système de gestion de restaurant ou de service de restauration. Il permet aux clients de parcourir le menu, de passer des commandes et de gérer leurs comptes.\n\nMon travail dans ce projet consistait: à implementer les interfaces graphiques et intégrer les API dévoleppé par l'équipe backend, pour la grande partie des API le modèle de communication utilisé est le HTTP ce pendant pour certaines API les websockets ont été utilisées ainsi que la mise place du pipeline CI/CD."
+      en: `Within a company [https://cgweb.ca/] I had to intervene on this project.\n\nThis project is a modern, feature-rich web application designed as the client-facing interface for a restaurant or food service management system. It allows customers to browse the menu, place orders, and manage their accounts.\n\nMy work in this project consisted of: implementing the graphical interfaces and integrating the APIs developed by the backend team, for the most part of the APIs the communication model used is HTTP however for some APIs websockets were used as well as the implementation of the CI/CD pipeline.`,
+      fr: `Au sein de l'entreprise CGWEB (Canada Global Web) [https://cgweb.ca/] j'ai eu à intervenir sur ce projet.\n\nCe projet est une application web moderne et riche en fonctionnalités conçue comme l'interface client d'un système de gestion de restaurant ou de service de restauration. Il permet aux clients de parcourir le menu, de passer des commandes et de gérer leurs comptes.\n\nMon travail dans ce projet consistait: à implementer les interfaces graphiques et intégrer les API dévoleppé par l'équipe backend, pour la grande partie des API le modèle de communication utilisé est le HTTP ce pendant pour certaines API les websockets ont été utilisées ainsi que la mise place du pipeline CI/CD.`
     },
     tags: ["React", "JavaScript", "WebSockets", "Stripe API", "CI/CD", "Professional"],
     media: [
